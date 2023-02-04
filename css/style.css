@@ -1,0 +1,44 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    margin: 0 auto;
+}
+.wrap {
+    width: 1200px;
+    min-height: 1200px;
+    background-color: rgb(241, 250, 176);
+}
+
+section {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.out {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(249, 255, 80);
+    border: 2px solid yellowgreen;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.i {
+    width: 95px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.b {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 20px;
+}
