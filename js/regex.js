@@ -31,4 +31,21 @@
 // hello@bk.ru
 // bk.ru
 
+let a = 10;
+
+function s1() {
+    let a = 0;
+    function s2() {
+        console.log(a)
+        a++
+        if (a === 20) return false; // рекурсия, замыкание
+        s2();
+    }
+    s2()
+    console.log(a)
+}
+console.log(a);
+s1();
+
+
 
